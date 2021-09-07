@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <script>
+        var tempCelsius = 30;
+        var tempFahren;
+        tempFahren = (9 / 5) * tempCelsius + 32;
+        alert("Задание №1\n" + "К примеру " + tempCelsius + " градусов по Цельсию равно " + tempFahren + " градусов по Фаренгейту")
+        var admin;
+        var name;
+        name = 'Василий';
+        admin = name;
+        alert("Задание №2\n" + "admin=" + admin)
+        var resultSum = 1000 + "108"
+        var resultSub = 1000 - "108"
+        alert("Задание №3\n" + "1000+'108'=" + resultSum + "\n1000-'108'=" + resultSub)
+
+        /*
+        Задание №4
+        Атрибуты async и defer необходимы в случаях когда нужно изменить модель загрузки html-страницы, в которой присутствует скрипт или скрипты js.
+        defer используется когда мы хотим, чтобы скрипт загружался в фоном режиме. Страница при этом продолжит загрузку в фоновом режиме и не будет ожидать выполнение скрипта. Если несколько скриптов имеют такой атрибут, то они выполняются по порядку.
+        Скрипты с Async также загружается отдельно от html-страницы, но при этом могут быть загружены и выполнены раньше или позже других скриптов, или содержимого страницы. Вообщем они не ждут друг друга и не имеют очередности. Выполняются по мере загрузки
+        */
+
+    </script>
+</body>
+
+</html>
